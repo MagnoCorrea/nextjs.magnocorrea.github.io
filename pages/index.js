@@ -9,52 +9,46 @@ const Home = () => (
 
     <main>
       <h1 className="title">
-        Welcome to <a href="https://nextjs.org">Magno Correa personal Website!</a>
+        Magno Correa personal Website
       </h1>
 
       <p className="description">
-        Get started by editing <code>pages/index.js</code>
+        Solving poorly defined <code>problems</code>
       </p>
 
       <div className="grid">
         <a href="https://nextjs.org/docs" className="card">
-          <h3>Documentation &rarr;</h3>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <h3>Telecom &rarr;</h3>
+          <p>Here we can see some problems solved to Telecom Industry, expecialy in OSS.</p>
         </a>
 
         <a href="https://nextjs.org/learn" className="card">
-          <h3>Learn &rarr;</h3>
-          <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <h3>Mechatronics &rarr;</h3>
+          <p>Some stufs in the phisical world! Mostly about Domotics and Manufacturing.</p>
         </a>
 
         <a
           href="https://github.com/zeit/next.js/tree/master/examples"
           className="card"
         >
-          <h3>Examples &rarr;</h3>
-          <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <h3>Legacy &rarr;</h3>
+          <p>Seem the past to provide best solutions to the future.</p>
         </a>
 
         <a
           href="https://vercel.com/new?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           className="card"
         >
-          <h3>Deploy &rarr;</h3>
+          <h3>Hype &rarr;</h3>
           <p>
-            Instantly deploy your Next.js site to a public URL with Vercel.
+            Looking ahead to be in the future now!
           </p>
         </a>
       </div>
     </main>
 
     <footer>
-      <a
-        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Powered by <img src="/vercel.svg" alt="Vercel Logo" />
-      </a>
+		Powered by MagnoCorrea.com @2020
     </footer>
 
     <style jsx>{`
@@ -68,7 +62,7 @@ const Home = () => (
       }
 
       main {
-        padding: 5rem 0;
+        padding: 4rem 0;
         flex: 1;
         display: flex;
         flex-direction: column;
@@ -143,7 +137,7 @@ const Home = () => (
         flex-wrap: wrap;
 
         max-width: 800px;
-        margin-top: 3rem;
+        margin-top: 1rem;
       }
 
       .card {
