@@ -41,7 +41,7 @@ const Home = () => (
         >
           <h3>Hype &rarr;</h3>
           <p>
-            Looking ahead to be in the future now!
+            Looking ahead to be in the future now! Hardware, software and beyond!
           </p>
         </a>
       </div>
@@ -62,7 +62,7 @@ const Home = () => (
       }
 
       main {
-        padding: 4rem 0;
+        padding: 3rem 0 2rem 0;
         flex: 1;
         display: flex;
         flex-direction: column;
@@ -72,7 +72,7 @@ const Home = () => (
 
       footer {
         width: 100%;
-        height: 100px;
+        height: 75px;
         border-top: 1px solid #eaeaea;
         display: flex;
         justify-content: center;
@@ -108,7 +108,7 @@ const Home = () => (
       .title {
         margin: 0;
         line-height: 1.15;
-        font-size: 4rem;
+        font-size: 3rem;
       }
 
       .title,
@@ -137,13 +137,13 @@ const Home = () => (
         flex-wrap: wrap;
 
         max-width: 800px;
-        margin-top: 1rem;
+        margin-top: 0.75rem;
       }
 
       .card {
         margin: 1rem;
         flex-basis: 45%;
-        padding: 1.5rem;
+        padding: 1rem;
         text-align: left;
         color: inherit;
         text-decoration: none;
@@ -161,13 +161,13 @@ const Home = () => (
 
       .card h3 {
         margin: 0 0 1rem 0;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
       }
 
       .card p {
         margin: 0;
-        font-size: 1.25rem;
-        line-height: 1.5;
+        font-size: 1rem;
+        line-height: 1.25;
       }
 
       @media (max-width: 600px) {
